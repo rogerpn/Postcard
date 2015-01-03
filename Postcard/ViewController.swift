@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //This button will update my Label and send my message
+    //This button will update my Label and send my message, the mailButton will update the title on push
     @IBAction func sendMailButtonPressed(sender: UIButton)
     {
         messageLabel.hidden = false
